@@ -17,6 +17,7 @@ public class DogTest extends TestCase {
 
     @Before
     public void setUp() throws Exception {
+        //
         aDog1 = new Dog(true, "Fido");
         aDog2 = new Dog(false, "Spot");
     }
